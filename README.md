@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# React App with Character Details
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application created using Create React App. It showcases a list of characters on the homepage, each of which can be clicked to view detailed information on a separate character page.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone this repository:
 
-## Expanding the ESLint configuration
+   ```bash
+   git clone https://github.com/joaquincleva/rickmortyapp.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Navigate to the project directory:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+    cd rickmortyapp
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Install dependencies:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+    npm install
+
+4. Start the development server:
+
+   ```bash
+    npm start
+
+Then, open your browser and visit http://localhost:3000 to view the application.
+
+### Homepage
+![Homepage](/public/HomePage.png)
+The homepage displays a list of characters. Clicking on a character will navigate to the detailed view.
+
+### Character Details
+![Homepage](/public/Character.png)
+The character details page provides in-depth information about a specific character.
+
+## Acknowledgments
+Feel free to explore, enjoy the games, and have fun! If you encounter any issues or have suggestions, please open an issue.

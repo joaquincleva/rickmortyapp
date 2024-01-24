@@ -54,7 +54,7 @@ function App() {
                 href="character"
                 id={`${item.id}`}
               >
-                VerDetalle
+                See Details
               </a>
             </article>
           ))}
